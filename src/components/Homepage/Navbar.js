@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom';
 
 export default function MyNavbar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">Ride Share</Navbar.Brand>
+    <Navbar bg="dark" expand="lg" >
+      <Navbar.Brand href="#home" style={{color:'white'}}> <h2>Ride Share</h2> </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Container className="d-flex justify-content-center">
@@ -22,8 +22,8 @@ export default function MyNavbar() {
             <Nav.Link href="#action3" >Action 3</Nav.Link>
           </Nav>
         </Container>
-        <Button variant="primary"><Link to='/Driver'> Driver </Link> </Button>
-        <Button variant="primary"><Link to='/Driver'> Pessenger </Link> </Button>
+        <Button variant=""><Link to='/Driver'> Driver </Link> </Button>
+        <Button variant=""><Link to='/Driver'> Pessenger </Link> </Button>
       </Navbar.Collapse>
     </Navbar>
   );
