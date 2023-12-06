@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {f} from './components/footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
