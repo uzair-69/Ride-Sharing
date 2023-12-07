@@ -1,0 +1,45 @@
+
+.Navbar{
+    padding: 1rem;
+    background-color: #39334F;
+}
+
+.Navbar h2{
+    color: #fafafa;
+    font-family: 'Black' , sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    font-weight: 1000;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.Rounded-Box{
+    background-color: #433D57;
+    border-radius: 20px;
+    padding: 10px;
+
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.Action1{
+    margin-left: 40px;
+    color: #fafafa;
+    font-family: 'Black' , sans-serif;
+    font-weight: 700;
+}
+
+.Action2{
+    margin-left: 40px;
+    color: #fafafa;
+    font-family: 'Black' , sans-serif;
+    font-weight: 700;
+}
+
+.Action3{
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #fafafa;
+    font-family: 'Black' , sans-serif;
+    font-weight: 700;
+}
+

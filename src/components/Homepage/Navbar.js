@@ -6,24 +6,57 @@ import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
-
+import './style.css';
 
 
 export default function MyNavbar() {
+
   return (
-    <Navbar bg="dark" expand="lg" >
-      <Navbar.Brand href="#home" style={{color:'white'}}> <h2>Ride Share</h2> </Navbar.Brand>
+    <Navbar expand="lg" className='Navbar'>
+      <Navbar.Brand href="#home"> <h2>RideHub</h2> </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Container className="d-flex justify-content-center">
-          <Nav className="mr-auto rounded-pill bg-secondary text-white p-2">
-            <Nav.Link href="#action1" >Action 1</Nav.Link>
-            <Nav.Link href="#action2" >Action 2</Nav.Link>
-            <Nav.Link href="#action3" >Action 3</Nav.Link>
+          <Nav className="Rounded-Box">
+            <Nav.Link href="#action1" className="Action1">About</Nav.Link>
+            <Nav.Link href="#action2" className="Action2">Safety</Nav.Link>
+            <Nav.Link href="#action3" className="Action3">Help</Nav.Link>
           </Nav>
         </Container>
-        <Button variant=""><Link to='/Driver'> Driver </Link> </Button>
-        <Button variant=""><Link to='/Driver'> Pessenger </Link> </Button>
+        <Button
+          style={{
+            marginLeft: '10px',
+            textDecoration: 'none',
+            backgroundColor: 'white',      // Background color
+            color: 'white',                 // Text color
+            padding: '10px 15px',             // Padding (top/bottom, left/right)
+            borderRadius: '20px',              // Border radius
+            border: '1px solid #5E6D94',      // Border
+            cursor: 'pointer',                // Cursor on hover
+            fontSize: '16px',                 // Font size
+            fontWeight: 'bold',               // Font weight
+          }}
+        >
+          <Link to='/Passenger' style={{marginLeft:'-10px', marginRight:'8px'}}> Passenger </Link>
+        </Button>
+
+        <Button
+          style={{
+            marginLeft: '-20px',
+            textDecoration: 'none',
+            backgroundColor: '#543CA2',      // Background color
+            color: 'white',                 // Text color
+            padding: '10px 15px',             // Padding (top/bottom, left/right)
+            borderRadius: '20px',              // Border radius
+            border: '1px solid #5E6D94',      // Border
+            cursor: 'pointer',                // Cursor on hover
+            fontSize: '16px',                 // Font size
+            fontWeight: 'bold',               // Font weight
+          }}
+        >
+          <Link to='/Driver'style={{marginLeft:'-10px', marginRight:'-8px'}}> Driver </Link>
+        </Button>
+
       </Navbar.Collapse>
     </Navbar>
   );
