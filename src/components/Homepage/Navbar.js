@@ -13,7 +13,7 @@ export default function MyNavbar() {
 
   return (
     <Navbar expand="lg" className='Navbar'>
-      <Navbar.Brand href="#home"> <h2>RideHub</h2> </Navbar.Brand>
+      <Navbar.Brand href="#home"><Link to='/' style={{textDecoration:'none'}}> <h2>RideHub</h2> </Link>  </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Container className="d-flex justify-content-center">
@@ -26,9 +26,7 @@ export default function MyNavbar() {
         <Button
           style={{
             marginLeft: '10px',
-            textDecoration: 'none',
             backgroundColor: 'white',      // Background color
-            color: 'white',                 // Text color
             padding: '10px 15px',             // Padding (top/bottom, left/right)
             borderRadius: '20px',              // Border radius
             border: '1px solid #5E6D94',      // Border
@@ -37,15 +35,22 @@ export default function MyNavbar() {
             fontWeight: 'bold',               // Font weight
           }}
         >
-          <Link to='/Passenger' style={{marginLeft:'-10px', marginRight:'8px'}}> Passenger </Link>
+          <Link to='/Passenger'
+            style={{
+              marginLeft: '-10px',
+              marginRight: '8px',
+              textDecoration: 'none',
+              color: 'black'
+            }}>
+            Passenger
+          </Link>
         </Button>
 
         <Button
           style={{
             marginLeft: '-20px',
-            textDecoration: 'none',
+            marginRight: '10px',
             backgroundColor: '#543CA2',      // Background color
-            color: 'white',                 // Text color
             padding: '10px 15px',             // Padding (top/bottom, left/right)
             borderRadius: '20px',              // Border radius
             border: '1px solid #5E6D94',      // Border
@@ -54,7 +59,15 @@ export default function MyNavbar() {
             fontWeight: 'bold',               // Font weight
           }}
         >
-          <Link to='/Driver'style={{marginLeft:'-10px', marginRight:'-8px'}}> Driver </Link>
+          <Link to='/Driver'
+            style={{
+              marginLeft: '-10px',
+              marginRight: '-8px',
+              textDecoration: 'none',
+              color: 'white'
+            }}>
+            Driver
+          </Link>
         </Button>
 
       </Navbar.Collapse>
