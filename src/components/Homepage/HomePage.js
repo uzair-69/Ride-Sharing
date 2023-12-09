@@ -3,9 +3,9 @@ import React from 'react';
 import Heroimg from './images/img1.png';
 import Img2 from './images/img2.png';
 import Img3 from './images/img3.png';
-import icon1 from './icon1.png';
-import icon2 from './icon2.png';
-import icon3 from './icon3.png';
+import icon1 from './images/icon1.png';
+import icon2 from './images/icon2.png';
+import icon3 from './images/icon3.png';
 
 
 
@@ -21,7 +21,7 @@ export default function HomePage() {
       </div>
       <div className="text-center justify-content-center align-items-center" style={{ padding: '20px' }}>
         <h1 style={{ fontSize: '60px' }}>Welcome to <span style={{ color: '#FFC947' }}>Ride</span>Hub</h1>
-        <h5>RideHub is platform for your service so you can earn and ride any time</h5>
+        <h5 style={{ marginBottom: '40px' }}>The best way to get wherever you’re going</h5>
       </div>
       <div className="text-center justify-content-center align-items-center" style={{ marginTop: '100px', marginBottom: '100px' }}>
         <h5><i class="bi bi-play-circle"></i>  Watch Our Story</h5>

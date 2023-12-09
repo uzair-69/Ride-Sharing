@@ -18,9 +18,9 @@ export default function MyNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Container className="d-flex justify-content-center">
           <Nav className="Rounded-Box">
-            <Nav.Link href="#action1" className="Action1">About</Nav.Link>
-            <Nav.Link href="#action2" className="Action2">Safety</Nav.Link>
-            <Nav.Link href="#action3" className="Action3">Help</Nav.Link>
+            <Nav.Link href="#action1" className="Action1"><Link to="About" style={{textDecoration:'none', color:'white'}}>About</Link></Nav.Link>
+            <Nav.Link href="#action2" className="Action2"><Link to="Help" style={{textDecoration:'none', color:'white'}}>Help</Link></Nav.Link>
+            <Nav.Link href="#action3" className="Action3"><Link to="Contact" style={{textDecoration:'none', color:'white'}}>Contact</Link></Nav.Link>
           </Nav>
         </Container>
         <Button
