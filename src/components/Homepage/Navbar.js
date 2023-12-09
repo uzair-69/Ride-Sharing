@@ -35,7 +35,7 @@ export default function MyNavbar() {
             fontWeight: 'bold',               // Font weight
           }}
         >
-          <Link to='/Passenger'
+          <Link to='/Pessenger'
             style={{
               marginLeft: '-10px',
               marginRight: '8px',

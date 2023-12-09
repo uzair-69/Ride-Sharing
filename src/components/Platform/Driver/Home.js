@@ -13,14 +13,14 @@ export default function HomePage() {
         borderRadius: '8px', // Optional: Add rounded corners
         fontSize: '18px', // Optional: Adjust the font size
         fontWeight: 'bold', // Optional: Adjust the font weight
-        }} className=''><Link to='/Driver'> Login </Link></Button>{' '}
+        }} className=''><Link to='/DriverLogin'> Login </Link></Button>{' '}
 
         
          <Button variant="outline-info" style={{  width: '200px', // Adjust the width as needed
         borderRadius: '8px', // Optional: Add rounded corners
         fontSize: '18px', // Optional: Adjust the font size
         fontWeight: 'bold', // Optional: Adjust the font weight
-       }} className=''><Link to='/Registration'>Signup</Link></Button>{' '}
+       }} className=''><Link to='/DriverRegistration'>Signup</Link></Button>{' '}
         {/* </div>x */}
       {/* </div> */}
     </div>
