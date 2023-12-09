@@ -5,6 +5,7 @@ import Driver from './components/Platform/Driver/Home';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './components/Homepage/HomePage';
 import Footer from './components/Homepage/Footer';
+import DriverReg from './components/Platform/Driver/Registeration';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/Driver" element={<Driver />} />
         <Route path="/Passenger" element={<Driver />} />
-
+        <Route path="/Registration" element={<DriverReg />} />
 
       </Routes>
       <Footer />
