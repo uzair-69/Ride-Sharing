@@ -10,7 +10,7 @@ export default function Footer() {
             style={{ backgroundColor: '#343541' }}
 
         >
-            <div className="container" >
+            <div className="container text-center" >
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-12">
                         <h1 style={{ color: '#ffffff' ,marginTop:'20px'}}>RideHub</h1>
@@ -31,7 +31,7 @@ export default function Footer() {
 
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-12">
-                        <img src={logo} alt="" style={{ width: '50%', marginLeft: '-40px' }} />
+                        <img src={logo} alt="" style={{ width: '50%' }} />
                     </div>
                 </div>
                 <div className="row mt-5">
