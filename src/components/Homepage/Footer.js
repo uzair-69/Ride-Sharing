@@ -5,15 +5,15 @@ import logo from './images/logo.png';
 export default function Footer() {
     return (
 
-        <div 
-        className="text-white"
-        style={{ backgroundColor: '#343541', padding: '20px' }}
-        
+        <div
+            className="text-white"
+            style={{ backgroundColor: '#343541' }}
+
         >
             <div className="container" >
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-12">
-                        <h1 style={{ color: '#ffffff' }}>RideHub</h1>
+                        <h1 style={{ color: '#ffffff' ,marginTop:'20px'}}>RideHub</h1>
                         <h5 style={{ color: '#FFC947' }}>About Us</h5>
                         <h5 style={{ color: '#FFC947' }}>Contact Us</h5>
                         <h5 style={{ color: '#FFC947' }}>Privacy Policy</h5>
@@ -22,16 +22,22 @@ export default function Footer() {
                     </div>
 
                     <div className="col-lg-4 col-md-4 col-sm-12">
-                        <h1 style={{ color: '#ffffff' }}>Follow Us</h1>
-                        <i class="bi bi-facebook"></i> Facebook <br />
-                        <i class="bi bi-instagram"></i> Instagram <br />
-                        <i class="bi bi-youtube"></i> Youtube <br />
+                        <h1 style={{ color: '#ffffff' ,marginTop:'20px'}}>Follow Us</h1>
+                        <h5><i class="bi bi-facebook"></i> Facebook</h5>
+                        <h5><i class="bi bi-instagram"></i> Instagram</h5>
+                        <h5><i class="bi bi-linkedin"></i> LinkedIn</h5>
+                        <h5><i class="bi bi-youtube"></i> Youtube</h5>
 
 
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-12">
-                        <img src={logo} alt="" style={{width:'50%',marginLeft:'-40px'}} />
+                        <img src={logo} alt="" style={{ width: '50%', marginLeft: '-40px' }} />
                     </div>
+                </div>
+                <div className="row mt-5">
+                    <div className="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h5>© 2021 RideHub. All rights reserved.</h5>
+                    </div>                    
                 </div>
             </div>
         </div>
