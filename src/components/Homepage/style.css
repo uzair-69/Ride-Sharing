@@ -1,19 +1,18 @@
-
-.Navbar{
+.Navbar {
     padding: 1rem;
     background-color: #39334F;
 }
 
-.Navbar h2{
+.Navbar h2 {
     color: #fafafa;
-    font-family: 'Black' , sans-serif;
+    font-family: 'Black', sans-serif;
     font-size: 2rem;
     margin-left: 1rem;
     font-weight: 1000;
     text-shadow: 2px 2px 2px #000000;
 }
 
-.Rounded-Box{
+.Rounded-Box {
     background-color: #433D57;
     border-radius: 20px;
     padding: 10px;
@@ -21,25 +20,37 @@
     box-shadow: 2px 2px 2px #000000;
 }
 
-.Action1{
+.Action1 {
     margin-left: 40px;
     color: #fafafa;
-    font-family: 'Black' , sans-serif;
+    font-family: 'Black', sans-serif;
     font-weight: 700;
 }
 
-.Action2{
+.Action2 {
     margin-left: 40px;
     color: #fafafa;
-    font-family: 'Black' , sans-serif;
+    font-family: 'Black', sans-serif;
     font-weight: 700;
 }
 
-.Action3{
+.Action3 {
     margin-right: 40px;
     margin-left: 40px;
     color: #fafafa;
-    font-family: 'Black' , sans-serif;
+    font-family: 'Black', sans-serif;
     font-weight: 700;
 }
 
+
+.cardss{
+
+    background-color: 'rgba(255, 255, 255, 0.8)';
+    /*White background with 0.8 opacity*/
+    border-radius: '10px';
+    /*Rounded corners*/
+    padding: '20px';
+    /*Padding inside the card*/
+    box-shadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+        /*Subtle box shadow*/
+}

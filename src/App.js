@@ -4,10 +4,11 @@ import Navbar from './components/Homepage/Navbar';
 import Driver from './components/Platform/Driver/Home';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './components/Homepage/HomePage';
+import Footer from './components/Homepage/Footer';
 
 function App() {
   return (
-    <>
+    <div className="body">
       <Navbar />
       <Routes>
 
@@ -17,8 +18,9 @@ function App() {
 
 
       </Routes>
+      <Footer />
 
-    </>
+    </div> 
   );
 }
 
