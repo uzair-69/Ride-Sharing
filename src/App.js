@@ -12,6 +12,7 @@ import { Routes, Route } from 'react-router-dom';
 import Footer from './components/Homepage/Footer';
 import DriverReg from './components/Platform/Driver/Registeration';
 import DriverLogin from './components/Platform/Driver/Login';
+import DriRide from './components/Platform/Driver/Ride';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/Pessenger" element={<Pessenger />} />
         <Route path="/DriverRegistration" element={<DriverReg />} />
         <Route path="/DriverLogin" element={<DriverLogin />} />
+        <Route path="/DriRide" element={<DriRide />} />
 
       </Routes>
       <Footer />
