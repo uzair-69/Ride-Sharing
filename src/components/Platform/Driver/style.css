@@ -1,0 +1,16 @@
+/* styles.css */
+
+/* Add your custom styles here */
+.custom-input {
+    border-radius: 20px; /* Adjust the border-radius to control the roundness */
+    padding: 10px; /* Add padding for a more stylish appearance */
+    border: 1px solid #4b4e52; /* Add a border for better visibility */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Optional: Add additional styling for the label */
+.custom-label {
+    font-weight: bold;
+    color: #c4c4c4;
+}
