@@ -15,11 +15,15 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-12">
                         <h1 style={{ color: '#ffffff', marginTop: '20px' }}>RideHub</h1>
-                        <h5 > <Link to="/About" style={{ color: '#FFC947' , textDecoration:'none'}}> About Us</Link></h5>
-                        <h5 style={{ color: '#FFC947' }}>Safety</h5>
-                        <h5 style={{ color: '#FFC947' }}>Privacy Policy</h5>
-                        <h5 > <i class="bi bi-google-play"></i> <span style={{ color: '#FFC947' }}>Google Play</span></h5>
-                        <h5 > <i class="bi bi-apple"></i> <span style={{ color: '#FFC947' }}>App Store</span></h5>
+                        <h5 > <Link to="/About" style={{ color: '#FFC947', textDecoration: 'none' }}> About Us</Link></h5>
+                        <h5 > <Link to="/Safety" style={{ color: '#FFC947', textDecoration: 'none' }}> Safety</Link></h5>
+                        <a href="https://play.google.com/store/apps/details?id=com.android.chrome&hl=en&gl=US">
+                            <h5 > <i class="bi bi-google-play"></i> <span style={{ color: '#FFC947' }}>Google Play</span></h5>
+                        </a>
+                        <a href="https://apps.apple.com/us/app/facebook/id284882215">
+                            <h5 > <i class="bi bi-apple"></i> <span style={{ color: '#FFC947' }}>App Store</span></h5>
+                        </a>
+
                     </div>
 
                     <div className="col-lg-4 col-md-4 col-sm-12">
