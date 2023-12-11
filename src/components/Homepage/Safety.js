@@ -3,36 +3,51 @@ import React from 'react'
 export default function Safety() {
     return (
         <div>
-            <div className="container ">
-                <div className="row">
-                    <div className="col-lg-12 col-md-12 col-sm-12 text-center mt-5">
-                        <h1 style={{ color: 'white' }}>Safety</h1>
-                    </div>
-                    <div className="col-lg-12 col-md-12 col-sm-12 text-center mt-5">
-                        <h3 style={{ color: 'white' }}>Safety is our top priority</h3>
-                        <p style={{ color: 'white' }}>We are committed to helping keep everyone safe on the road. Our technology enables us to focus on rider safety before, during, and after every trip.</p>
-
-
-                    </div>
-                    <div className="col-lg-12 col-md-12 col-sm-12 text-center mt-5">
-                        <h3 style={{ color: 'white' }}>Safety features</h3>
-                        <p style={{ color: 'white' }}>Our technology enables us to focus on rider safety before, during, and after every trip.</p>
-                        <h5 style={{ color: 'white' }}>Emergency button</h5>
-                        <p style={{ color: 'white' }}>In case of an emergency, riders can contact emergency services directly from the app.</p>
-                        <h5 style={{ color: 'white' }}>RideCheck</h5>
-                        <p style={{ color: 'white' }}>If a potential crash is detected, we check on the rider and driver and will reach out to first responders if needed.</p>
-                        <h5 style={{ color: 'white' }}>Safety Center</h5>
-                        <p style={{ color: 'white' }}>Find safety tips, in-app safety features, and more in the Safety Center.</p>
-                        <h5 style={{ color: 'white' }}>Trusted contacts</h5>
-                        <p style={{ color: 'white' }}>Share your trip details with loved ones for added peace of mind.</p>
-                        <h5 style={{ color: 'white' }}>Insurance</h5>
-                        <p style={{ color: 'white' }}>All rides on the RideHub platform are protected by our insurance policy.</p>
-                        <h5 style={{ color: 'white' }}>Driver screening</h5>
-                        <p style={{ color: 'white' }}>All RideHub drivers must undergo a screening process before they can drive on the platform.</p>
-
+            <div className="container mb-5">
+                <div className="row text-white">
+                    <div
+                        style={{
+                            backgroundColor: "#1a1a1a",
+                            padding: "20px",
+                            borderRadius: "20px",
+                            marginTop: "20px",
+                            marginBottom: "20px"
+                        }}
+                        className="col-lg-12 col-md-12 col-sm-12 text-center mt-5"
+                    >
+                        <h5>
+                            This web site will introduce you to new people.
+                            You must ensure your own personal safety.
+                        </h5>
                     </div>
 
+                    <div className="col-lg-12 col-md-12 col-sm-12  mt-5">
+                        <h1>Personal Safety</h1>
+                        <h5>
+                            RideHub provides a service that enables you to contact and meet new
+                            people who may have similar transportation needs. This is a legal
+                            agreement between you, the user, and RideHub inc.
+                        </h5>
+                        <br />
+                        <ul style={{ fontSize: 'larger' }}>
+                            <li>
+                                By using this web site you agree to be bound by all the terms and conditions of this Agreement and accept that we have no responsibility for your safety.
+                            </li>
+                            <li>
+                                By using this web site you acknowledge your acceptance of all of the terms of use described herein.
+                            </li>
+                            <li>
+                                If you do not agree to be bound by this Agreement, do not use this site or any of its services.
+                            </li>
+                            <li>
+                                The terms and conditions of use are subject to change at any time.
+                            </li>
+                            <li>
+                                Your use of the services after such changes constitutes acceptance of the changes.
+                            </li>
 
+                        </ul>
+                    </div>
 
                 </div>
             </div>
