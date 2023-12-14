@@ -13,6 +13,8 @@ import Footer from './components/Homepage/Footer';
 import DriverReg from './components/Platform/Driver/Registeration';
 import DriverLogin from './components/Platform/Driver/Login';
 import DriRide from './components/Platform/Driver/Ride';
+import PassengerLogin from './components/Platform/Pessenger/login';
+import PassengerRegitration from './components/Platform/Pessenger/Registeration';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/DriverRegistration" element={<DriverReg />} />
         <Route path="/DriverLogin" element={<DriverLogin />} />
         <Route path="/DriRide" element={<DriRide />} />
+        <Route path="/PassengerLogin" element={<PassengerLogin />} />
+        <Route path="/PassengerRegistration" element={<PassengerRegitration />} />
 
       </Routes>
       <Footer />
