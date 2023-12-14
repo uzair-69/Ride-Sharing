@@ -28,10 +28,27 @@ export default function Footer() {
 
                     <div className="col-lg-4 col-md-4 col-sm-12">
                         <h1 style={{ color: '#ffffff', marginTop: '20px' }}>Follow Us</h1>
-                        <h5><i class="bi bi-facebook"></i> Facebook</h5>
-                        <h5><i class="bi bi-instagram"></i> Instagram</h5>
-                        <h5><i class="bi bi-linkedin"></i> LinkedIn</h5>
-                        <h5><i class="bi bi-youtube"></i> Youtube</h5>
+                        <a
+                            href="https://www.instagram.com/arif.hussain_/"
+                            style={{ textDecoration: 'none', color: 'white' }}
+                        >
+                            <h5 > <i class="bi bi-instagram"></i> <span >Instagram</span></h5>
+                        </a>
+                        
+                        <a
+                            href="https://www.facebook.com/Arif.chohan.ah/"
+                            style={{ textDecoration: 'none', color: 'white' }}
+                        >
+                            <h5 > <i class="bi bi-facebook"></i> <span >Facebook</span></h5>
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/arif-hussain-chohan/"
+                            style={{ textDecoration: 'none', color: 'white' }}
+                        >
+                            <h5 > <i class="bi bi-linkedin"></i> <span >LinkedIn</span></h5>
+                        </a>
+
 
 
                     </div>
