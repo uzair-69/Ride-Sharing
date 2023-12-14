@@ -15,6 +15,7 @@ import DriverLogin from './components/Platform/Driver/Login';
 import DriRide from './components/Platform/Driver/Ride';
 import PassengerLogin from './components/Platform/Pessenger/login';
 import PassengerRegitration from './components/Platform/Pessenger/Registeration';
+import ViewRides from './components/Platform/Pessenger/View-availabe-rides';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/DriRide" element={<DriRide />} />
         <Route path="/PassengerLogin" element={<PassengerLogin />} />
         <Route path="/PassengerRegistration" element={<PassengerRegitration />} />
+        <Route path="/ViewRides" element={<ViewRides />} />
 
       </Routes>
       <Footer />
