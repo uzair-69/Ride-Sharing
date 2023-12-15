@@ -14,3 +14,14 @@
     font-weight: bold;
     color: #c4c4c4;
 }
+
+/* badge */
+.custom-badge {
+    background-color: #7b62cc;
+    margin-left: 90px;
+    /* Add any additional styling you need */
+  }
+  
+  .custom-badge h4, .custom-badge h6 {
+    margin: 0; /* Adjust margin as needed */
+  }
