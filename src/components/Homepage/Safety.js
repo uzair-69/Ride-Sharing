@@ -1,6 +1,9 @@
-import React from 'react'
-
+import React from 'react';
 export default function Safety() {
+
+
+
+
     return (
         <div>
             <div className="container mb-5">
@@ -45,6 +48,22 @@ export default function Safety() {
                             <li>
                                 Your use of the services after such changes constitutes acceptance of the changes.
                             </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div className="col-lg-12 col-md-12 col-sm-12 text-white mt-5">
+                        <h1>
+                            Eligibility
+                        </h1>
+                        <ul style={{ fontSize: 'large' }}>
+                            <li>You must be 18 years of age or older to use RideHub.</li>
+                            <li>By using this site, you consent to have us provide your information to the other users of RideHub, as described below, to help you find people to share your transportation.</li>
+                            <li>RideHub confirms email addresses with a confirmation code. If your email address is registered on RideHub, it means that you or someone else with access to your email account has confirmed your trip information.</li>
+                            <li>By using this web site you acknowledge that RideHub is not responsible for ascertaining who actually controls the email accounts used in our system.</li>
+                            <li>By using this site and accepting the Agreement and the Terms of Use, you represent and warrant that you have not been convicted of a felony and are not required to register as such or as a sex offender with any governmental agency.</li>
+                            <li>RideHub does not conduct criminal background screenings on its users. If another person has posted your personal information, such as address, phone#, email address, or other, on this web site, then please contact us immediately and we will remove the offending information. There is nothing more we can do and we do not accept any liability whatsoever for this type of problem.</li>
 
                         </ul>
                     </div>
