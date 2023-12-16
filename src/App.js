@@ -38,6 +38,7 @@ function App() {
         <Route path="/PassengerRegistration" element={<PassengerRegitration />} />
         <Route path="/ViewRides" element={<ViewRides />} />
         <Route path="/AllRides" element={<AllRides />} />
+        
 
       </Routes>
       <Footer />
