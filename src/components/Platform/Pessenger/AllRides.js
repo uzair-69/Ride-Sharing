@@ -7,7 +7,7 @@ import img3 from "../../../assets/image/bike.png";
 
 const AllRides = () => {
     
-  const whatsappNumber = '03337141238'; 
+  const whatsappNumber = '923337141238'; 
 
   const getWhatsAppLink = () => {
     // Construct the WhatsApp link with your phone number
