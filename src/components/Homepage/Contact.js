@@ -38,7 +38,20 @@ export default function Contact() {
                             <label for="message">Message</label>
                             <textarea class="form-control" id="message" rows="6" placeholder="Enter your message" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <button type="submit" class="btn "
+                            style={{
+                                borderRadius: '20px',
+                                padding: '10px 40px',
+                                fontSize: '20px',
+                                marginTop: '20px',
+                                marginBottom: '20px',
+                                backgroundColor: '#1a1a1a',
+                                color: 'white'
+                            }}
+                        >Submit</button>
                     </div>
                 </div>
             </div>
